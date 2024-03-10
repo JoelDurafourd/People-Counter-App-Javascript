@@ -20,10 +20,22 @@ h2 {
     margin-bottom: 20px;
 }
 
-button {
+#increment-btn {
     border: none;
     padding: 25px;
     background-color: darkgreen;
+    border-radius: 15px;
+    text-align: center;
+    text-emphasis: bold;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;   
+}
+
+#reset-btn {
+    border: none;
+    padding: 25px;
+    background-color: darkred;
     border-radius: 15px;
     text-align: center;
     text-emphasis: bold;

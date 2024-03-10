@@ -1,13 +1,16 @@
 //document.getElementById("count-el").innerText = 5
 
-let count = 0
+let peopleCount = 0
 
-console.log(count)
+let countEl = document.getElementById("count-el")
 
 function increment() {
-    count = count +1
+    peopleCount = peopleCount + 1
+    countEl.innerText = peopleCount
+    console.log(peopleCount)
 }
 
-let lap1 = 34 
-let lap2 = 33
-let lap3 = 36
+function resetToNothing() {
+    countEl.innerText = 0
+    peopleCount = 0
+}
