@@ -14,3 +14,9 @@ function resetToNothing() {
     countEl.innerText = 0
     peopleCount = 0
 }
+
+function saveCurrentNumber() {
+    console.log(peopleCount)
+}
+
+let username = "Per"

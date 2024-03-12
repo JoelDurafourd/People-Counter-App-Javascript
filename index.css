@@ -43,3 +43,15 @@ h2 {
     font-size: large;
     font-family: Arial Black,Arial Bold,Gadget,sans-serif;   
 }
+
+#save-btn {
+    border: none;
+    padding: 25px;
+    background-color: darkcyan;
+    border-radius: 15px;
+    text-align: center;
+    text-emphasis: bold;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;   
+}
