@@ -29,7 +29,9 @@ h2 {
     text-emphasis: bold;
     color: rgb(255, 255, 255);
     font-size: large;
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif;   
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    transition: 0.3s ease;
+    cursor: pointer;    
 }
 
 #reset-btn {
@@ -41,7 +43,9 @@ h2 {
     text-emphasis: bold;
     color: rgb(255, 255, 255);
     font-size: large;
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif;   
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    transition: 0.3s ease;
+    cursor: pointer;    
 }
 
 #save-btn {
@@ -53,5 +57,19 @@ h2 {
     text-emphasis: bold;
     color: rgb(255, 255, 255);
     font-size: large;
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif;   
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    transition: 0.3s ease;
+    cursor: pointer;    
 }
+
+#increment-btn:hover {
+    background-color:rgb(82, 175, 79);
+  }
+
+#reset-btn:hover {
+    background-color:rgb(226, 105, 91);
+  }
+
+#save-btn:hover {
+    background-color:rgb(66, 58, 230);
+  }
