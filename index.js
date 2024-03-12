@@ -17,7 +17,6 @@ welcomeEl.innerText = "Welcome to the People Counter, " + userName + "!"
 function increment() {
     peopleCount += 1
     countEl.innerText = peopleCount
-    console.log(peopleCount)
 }
 
 function resetToNothing() {
@@ -29,5 +28,7 @@ function resetToNothing() {
 function saveCurrentNumber() {
     let savedNumber1 = " " + peopleCount + " - "
     saveEl.innerText += savedNumber1
+    peopleCount = 0 
+    countEl.innerText = peopleCount
 }
 
